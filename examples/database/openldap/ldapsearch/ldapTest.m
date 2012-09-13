@@ -35,7 +35,8 @@ void test_all_ldap(const char * caFile)
 
    if (caFile)
    {
-      NSLog(@"setting ca file...");
+//      NSLog(@"setting ca file...");
+       NSLog(@"setting ca file %s", caFile);
       err = ldap_set_option(NULL, LDAP_OPT_X_TLS_CACERTFILE, (void *)caFile);
       if (err != LDAP_SUCCESS)
          NSLog(@"ldap_set_option(): %s", ldap_err2string(err));

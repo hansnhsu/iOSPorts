@@ -6,7 +6,7 @@
  *  Copyright 2010 David M. Syzdek. All rights reserved.
  *
  */
-#include <ldap.h>
+#include "ldap.h"
 
 #define MY_LDAP_VERSION    LDAP_VERSION3
 #define MY_LDAP_URI        "ldap://ldaptest.bindlebinaries.com/"

@@ -6896,6 +6896,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/openssl.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -6905,6 +6906,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = ssl;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7";
 			};
 			name = Debug;
 		};
@@ -6912,12 +6914,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/openssl.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = ssl;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7";
 			};
 			name = Release;
 		};
@@ -6994,6 +6998,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/openssl.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -7003,6 +7008,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = crypto;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7";
 			};
 			name = Debug;
 		};
@@ -7010,12 +7016,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/openssl.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_THUMB_SUPPORT = NO;
 				PRODUCT_NAME = crypto;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 armv7";
 			};
 			name = Release;
 		};
